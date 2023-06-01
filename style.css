@@ -35,7 +35,7 @@ body{
 }
 
 
-.nav-bar >h4{
+a > h4{
     color: aliceblue;
     cursor:pointer;
     font-size: 1.3rem
@@ -43,7 +43,7 @@ body{
 }
 
 
-.nav-bar >h4:hover{
+a>h4:hover{
    color:aquamarine; 
     
 }
@@ -74,4 +74,45 @@ body{
  line-height: 31px;
  text-align: justify;
  padding-top: 4rem;
+}
+/* aqui inicia la seccion de habilidades  */
+.habilidades{
+   
+    padding: 5rem;
+}
+.habilidades-tittle{
+    margin-bottom: 3rem;
+}
+.mishabilidades{
+    
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+     align-items: center;
+     gap: 3rem;
+}
+.row1>img{   width: 170px; 
+    border-radius: 50%;
+    margin: .5rem;
+    box-shadow: 1px 1px 10px 1px rgb(179, 174, 174);
+}
+.row2>img{   width: 170px;
+    border-radius: 50%;
+    margin: .5rem;
+    box-shadow: 1px 1px 10px 1px rgb(179, 174, 174);
+
+}
+.row3>img{   width: 170px;
+    border-radius: 50%;
+    margin: .5rem;
+    box-shadow: 1px 1px 10px 1px rgb(179, 174, 174);
+}
+.img-habilidades{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+a{
+   text-decoration: none;
 }
