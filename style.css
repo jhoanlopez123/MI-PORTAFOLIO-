@@ -1,6 +1,8 @@
 
 /*reseteo general*/
-
+html{
+    scroll-behavior: smooth;
+}
 
 
 
