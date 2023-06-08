@@ -116,3 +116,23 @@ a>h4:hover{
 a{
    text-decoration: none;
 }
+
+/* aqui inicia la seccion de portafolio */
+.img-proyecto1{
+width: 500px ;
+margin-top: 4rem;
+box-shadow: 1px 1px 10px black;
+border-radius: 1rem;
+}
+.mi-portafolio{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+
+}
+.parrafo-portafolio{
+    margin-bottom: 1rem;
+}
